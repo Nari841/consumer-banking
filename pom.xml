@@ -13,7 +13,20 @@
     <plugin>
 		<artifactId>maven-compiler-plugin</artifactId>
 		<groupId>org.apache.maven.plugins</groupId>
+<<<<<<< HEAD
 		<version>3.8.1</version>
+=======
+		<version>3.0</version>
+    </plugin>
+    <plugin>	
+		<artifactId>maven-surefire-plugin</artifactId>
+		<groupId>org.apache.maven.plugins</groupId>
+		<version>2.11</version>
+	    <configuratuion>
+		    <source>1.8</source>
+		    <target>1.8</target>
+	    </configuration>
+>>>>>>> 9a0a023d149ae3959cd99b1165ee6d4034cb902c
     </plugin>
    </plugins>
   </build>
